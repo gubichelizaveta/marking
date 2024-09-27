@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f2aD2/JaPoHzthOFYw4jV4IKctn3oqisXlFt6xkjfzIO2ftNAhEwp4Xb3Yo/fZqQKMLsBolq9/suYCIr02+lFQ==",
+  "dgSpecHash": "iyPvAFVJVNsZw4qKQnf48kBX02PBYDvBIRp+pLbSkc0ZXVn2DWIev6yQGWQXlOW08lnT35zt1VlG0bF51nWEEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Liza\\Desktop\\Marking_TZ\\Marking_TZ.csproj",
+  "projectFilePath": "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\Marking_TZ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Liza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Liza\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",

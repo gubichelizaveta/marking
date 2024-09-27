@@ -3,10 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Marking_TZ.ViewModels"
+        xmlns:local="clr-namespace:Marking_TZ.View"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <!--<Grid>
         <TabControl SelectedIndex="{Binding SelectedTabIndex}">
             <TabItem Header="Текущее задание">
                 <StackPanel>
@@ -64,6 +64,25 @@
                 </StackPanel>
             </TabItem>
 
+        </TabControl>
+    </Grid>-->
+    <Grid>
+        <TabControl SelectedIndex="{Binding SelectedTabIndex}">
+            <TabItem Header="Текущее задание">
+                <local:CurrentTaskControl />
+            </TabItem>
+
+            <TabItem Header="Продукция">
+                <local:CodesControl />
+            </TabItem>
+
+            <TabItem Header="Короба">
+                <local:BoxesControl />
+            </TabItem>
+
+            <TabItem Header="Палетты">
+                <local:PalletsControl />
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

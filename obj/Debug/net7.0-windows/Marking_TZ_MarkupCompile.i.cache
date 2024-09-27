@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Liza\Desktop\Marking_TZ\obj\Debug\net7.0-windows\
+C:\Users\Liza\Desktop\marking_test\marking\obj\Debug\net7.0-windows\
 Marking_TZ
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\Liza\Desktop\Marking_TZ\App.xaml
-11407045341
+C:\Users\Liza\Desktop\marking_test\marking\App.xaml
+5-132979763
 
-17679945762
+21-1291911238
 217-663625308
-MainWindow.xaml;
+MainWindow.xaml;View\BoxesControl.xaml;View\CodesControl.xaml;View\CurrentTaskControl.xaml;View\PalletsControl.xaml;
 
 True
 

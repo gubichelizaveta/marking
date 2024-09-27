@@ -18,10 +18,10 @@ namespace Marking_TZ
             httpClient = new HttpClient();
         }
 
-        public async Task<Obj> GetMissionDataAsync(string url)
+        public async Task<MissionData> GetMissionDataAsync(string url)
         {
             var response = await httpClient.GetStringAsync(url);
-            return JsonConvert.DeserializeObject<Obj>(response);
+            return JsonConvert.DeserializeObject<MissionData>(response);
         }
     }
 }

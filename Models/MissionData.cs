@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Marking_TZ.Models
 {
-    public class Obj 
+    public class MissionData 
     {
        public Mission Mission { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Liza\\Desktop\\Marking_TZ\\Marking_TZ.csproj": {}
+    "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\Marking_TZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Liza\\Desktop\\Marking_TZ\\Marking_TZ.csproj": {
+    "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\Marking_TZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Liza\\Desktop\\Marking_TZ\\Marking_TZ.csproj",
+        "projectUniqueName": "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\Marking_TZ.csproj",
         "projectName": "Marking_TZ",
-        "projectPath": "C:\\Users\\Liza\\Desktop\\Marking_TZ\\Marking_TZ.csproj",
+        "projectPath": "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\Marking_TZ.csproj",
         "packagesPath": "C:\\Users\\Liza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Liza\\Desktop\\Marking_TZ\\obj\\",
+        "outputPath": "C:\\Users\\Liza\\Desktop\\marking_test\\marking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

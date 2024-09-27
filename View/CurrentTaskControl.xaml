@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Marking_TZ.View.CurrentTaskControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Marking_TZ.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock FontWeight="Bold" FontSize="18" Text="ЗАДАНИЕ НА РАСКЛАДКУ" HorizontalAlignment="Center" Margin="0,10,0,10"/>
+        <TextBlock FontWeight="Bold" FontSize="14" Text="ПРОДУКТ:" />
+        <TextBlock FontSize="12" Text="{Binding Name}" />
+        <TextBlock FontWeight="Bold" FontSize="14" Text="GTIN продукции:"/>
+        <TextBlock FontSize="12" Text="{Binding Gtin}" />
+        <TextBlock FontWeight="Bold" FontSize="14" Text="Объем бутылки:" />
+        <TextBlock FontSize="12" Text="{Binding Volume}" />
+        <TextBlock FontWeight="Bold" FontSize="14" Text="Формат короба:" />
+        <TextBlock FontSize="12" Text="{Binding BoxFormat}" />
+        <TextBlock FontWeight="Bold" FontSize="14" Text="Формат паллет:" />
+        <TextBlock FontSize="12" Text="{Binding PalletFormat}" />
+        <Button Content="Импортировать коды" Width="150" Height="30" HorizontalAlignment="Left" Margin="10,10,0,10" Command="{Binding ImportCommand}"/>
+    </StackPanel>
+</UserControl>
